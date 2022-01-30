@@ -1,0 +1,62 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 20vw;
+    background: linear-gradient(to right, darkcyan, crimson);
+    position: relative
+}
+.header > .photo {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    float: left;
+    display: inline;
+}
+.header > .photo > .photo-holder {
+    height: 75%;
+    width: 80%;
+    background: chocolate;
+    position: absolute;
+    align-items: center;
+    top: 12.5%;
+    left: 10%;
+    border-radius: 50%;
+}
+
+.header > .description {
+    width: 80%;
+    height: 100%;
+    float: left;
+    display: inline;
+    overflow: hidden;
+}
+
+.header > .description > .name {
+    height: 50%;
+    width: 100%;
+    /* background: maroon; */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 8vw;
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    white-space: nowrap;
+    /* overflow-x: scroll; */
+}
+
+.header > .description > .bio {
+    height: 50%;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    padding-top: 1vh;
+    text-align: center;
+}
